@@ -1,11 +1,10 @@
-=========
 FICOSA EXAM
 =========
 
+![](https://media.giphy.com/media/klRmpF4s3lExwHqCF5/giphy.gif)
+
 Install
 ======
-
-.. code-block:: shell
 
     sudo apt-get install python3.6 python3.6-dev python3.6-tk
     # Move inside directory with setup.py to install package
