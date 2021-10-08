@@ -9,6 +9,7 @@ def menu():
                     c.timeStart as Start,
                     c.timeEnd as End
             FROM Teacher t
-            LEFT JOIN Classes c ON c.teacherID = t.id 
+            LEFT JOIN Classes c ON c.teacherID = t.id
+            WHERE t.name LIKE 'Jonatan';
             """
     sg.popup(sql)
